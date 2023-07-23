@@ -1,0 +1,7 @@
+
+[{shop_url}] 
+
+Hello {admin}
+{author} has just created a new topic: {topic}.
+
+{shop_name} [{shop_url}].

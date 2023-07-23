@@ -1,0 +1,7 @@
+
+[{shop_url}] 
+
+Hello {admin}
+{nickname} has just registered to the Forum.
+
+{shop_name} [{shop_url}].

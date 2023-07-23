@@ -1,0 +1,11 @@
+
+[{shop_url}] 
+
+Hello {nickname}
+
+{visitor} {action} your post:
+"{comment}" 
+
+{link} 
+
+{shop_name} [{shop_url}].
