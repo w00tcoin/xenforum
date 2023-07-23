@@ -1,0 +1,57 @@
+.tree-validations {
+    margin-top: 20px;
+    padding: 2%;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.tree-validations .tree-header {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.tree-validations .tree-sub {
+    margin-bottom: 10px;
+}
+
+.tree-validations tr.level-0 {
+    background-color: #f0f0f0;
+}
+
+
+.tree-validations tr.level-0 .tree-label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.disabled .tree-label {
+    opacity: .3;
+}
+
+.tree-row.closed {
+}
+
+.tree-row.private .itemLabel {
+    color: #ff0000 !important;
+}
+
+.tree-row.private .itemLabel:after {
+    color: #ff0000;
+    content: '*';
+}
+
+.bootstrap .form-horizontal .control-right {
+    text-align: left;
+}
+
+.tree-footer {
+    margin-top: 15px;
+}
+
+input[type=text].validation {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1px;
+}
+

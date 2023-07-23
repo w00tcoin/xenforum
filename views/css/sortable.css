@@ -1,0 +1,140 @@
+
+.placeholder {
+    outline: 1px dashed #ffcc00;
+}
+
+.mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+}
+
+.tree-management ol {
+    width: 100%;
+    padding-left: 25px;
+}
+
+.tree-management>ol {
+    padding-left: 0;
+}
+
+ol.sortable,ol.sortable ol {
+    list-style-type: none;
+}
+
+.sortable li div {
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: move;
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    margin: 0;
+    padding: 3px;
+}
+
+li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+    border-color: #999;
+}
+
+.disclose, .expandEditor {
+    cursor: pointer;
+    width: 20px;
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-collapsed > ol {
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-branch > div > .disclose {
+    display: inline-block;
+}
+
+.sortable span.ui-icon {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menuDiv {
+    background: #cff7cd;
+    border: 1px dotted #9ecff0 !important;
+	margin-top:3px !important;
+	padding:6px 10px !important;
+}
+
+.menuDiv.closed {
+    background: #d4d4d4;
+}
+
+.menuDiv.private>.itemTitle>a {
+    color: #ff0000 !important;
+}
+
+.menuDiv.private>.itemTitle>a:after {
+    color: #ff0000;
+    content: '*';
+}
+
+.menuDiv a,
+.menuDiv a:link,
+.menuDiv a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menuDiv a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.itemTitle {
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.deleteMenu {
+    float: right;
+    cursor: pointer;
+}
+
+.sortable>li>div>span.itemTitle {
+    font-weight: bold;
+}
+
+/** POSITIONS */
+.connectedSortable {
+    border: 1px solid #eee;
+    min-height: 180px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+}
+.connectedSortable + .connectedSortable {
+    border-left: 0;
+}
+
+#sortable1 {width: 30%;}
+#sortable2 {width: 40%;}
+#sortable3 {width: 30%;}
+
+.connectedSortable li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.1em;
+    width: auto;
+    cursor: move;
+    border: 1px dotted #9ecff0;
+    background: #cff7cd;
+}
+
+.connectedSortable li>a:hover {
+    text-decoration: underline;
+}
+.connectedSortable li,
+.ui-state-highlight {height: 2.1em; line-height: 1.2em;}
+
+.ui-state-highlight {border: 1px dotted #FCEFA1 !important; background: #FBF9EF !important;}
+.ui-state-disabled {font-weight: bold; text-align: center; text-transform: uppercase;}
+
